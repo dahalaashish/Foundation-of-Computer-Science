@@ -117,15 +117,15 @@ INSERT INTO Clubs_3NF (ClubName, ClubRoom, MentorID) VALUES
 ('Drama Club', 'R303', 3),
 ('Coding Club', 'Lab1', 4);
 
-
 CREATE TABLE Student_Club (
     StudentID INT,
-    ClubName VARCHAR(100),
+    ClubID INT,
     JoinDate DATE,
-    PRIMARY KEY (StudentID, ClubName),
+    PRIMARY KEY (StudentID, ClubID),
     FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
-    FOREIGN KEY (ClubName) REFERENCES Clubs_3NF(ClubName)
+    FOREIGN KEY (ClubID) REFERENCES Clubs_3NF(ClubID)
 );
+
 
 INSERT INTO Student_Club VALUES
 (1, 'Music Club', '2024-01-10'),
