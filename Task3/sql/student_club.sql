@@ -124,7 +124,7 @@ CREATE TABLE Student_Club (
     JoinDate DATE,
     PRIMARY KEY (StudentID, ClubName),
     FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
-    FOREIGN KEY (ClubName) REFERENCES Clubs(ClubName)
+    FOREIGN KEY (ClubName) REFERENCES Clubs_3NF(ClubName)
 );
 
 INSERT INTO Student_Club VALUES
