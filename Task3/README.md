@@ -25,4 +25,30 @@ This project demonstrates the process of database normalization for a College cl
 
  ### Issues in the given dataset :
 
-  
+![Unnormalized Dataset](https://github.com/dahalaashish/Foundation-of-Computer-Science/blob/main/Task3/diagrams/unnormalized_data.png)
+
+  *Figure1 : Unnormalized Dataset*
+
+The initial dataset contained:
+
+- Repeating groups
+- Redundant data
+- Update anomalies
+- Insert anomalies
+- Deletion anomalies
+
+These issues negatively affect data consistency and scalability.
+
+### ER Diagram
+The final database structure consists of the following entities:
+
+- Student(StudentName, StudentID, Email)
+- Club(ClubName, ClubRoom)
+- Membership(StudentID, ClubName, JoinDate)
+
+Relationships:
+- A student can join multiple clubs.
+- A club can have multiple students.
+- Membership acts as a connection.
+
+
