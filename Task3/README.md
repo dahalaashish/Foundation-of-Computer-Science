@@ -22,7 +22,7 @@ This project demonstrates the process of database normalization for a College cl
 - Update Anomaly : An Update Anomaly occurs when the same data is stored in multiple rows, and updating it in one place requires updating it in all other places.
 - Deletion Anomaly : A Deletion Anomaly occurs when deleting a record unintentionally removes additional important information from the database.
 - ER diagram : It is a visual representation of how data is organized in a database that mainly shows **entities, relationships and attributes**
-
+---
  ### Issues in the given dataset :
 
 ![Unnormalized Dataset](https://github.com/dahalaashish/Foundation-of-Computer-Science/blob/main/Task3/diagrams/unnormalized_data.png)
@@ -37,8 +37,25 @@ The initial dataset contained:
 - Insert anomalies
 - Deletion anomalies
 
-These issues negatively affect data consistency and scalability.
+  These issues negatively affect data consistency and scalability.
+---
+## Normalization Process
+### Types
+**First Normal Form(1NF)**
+- Each column contains atomic (single) values.
+- No repeating groups or multiple values in one cell.
+- Each record is unique.
 
+**Second Normal Form(2NF)**
+- Must be in 1NF.
+- Removed partial dependencies. 
+- Ensured non-key attributes depend fully on primary key.
+
+**Third Normal Form(3NF)**
+- Must be in 2NF
+- Removed transitive dependencies  
+- Created separate entities for independent data
+---
 ### ER Diagram
 The final database structure consists of the following entities:
 
@@ -51,4 +68,5 @@ Relationships:
 - A club can have multiple students.
 - Membership acts as a connection.
 
-
+![ER DIAGRAM](https://github.com/dahalaashish/Foundation-of-Computer-Science/blob/main/Task3/diagrams/er_diagram.drawio%20(1).png) 
+  *Figure 5: ER Diagram*
