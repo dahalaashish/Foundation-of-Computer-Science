@@ -23,5 +23,6 @@ This project demonstrates the process of database normalization for a College cl
 - Deletion Anomaly : A Deletion Anomaly occurs when deleting a record unintentionally removes additional important information from the database.
 - ER diagram : It is a visual representation of how data is organized in a database that mainly shows **entities, relationships and attributes**
 
-  ### Issues in the given dataset :
+ ### Issues in the given dataset :
+
   
