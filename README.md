@@ -14,5 +14,26 @@ This task cover following things:
 
 KEY TECHNOLOGIES: Base64, URL Encoding, ASCII , UTF-8, HTTPS, TLS, SMPTP, REST API , OAuth, Docker
 
+---
+
 ### Task2: Classroom Seating Arrangement Problem
-- Task3:
+This task uses a simple classroom seating scenario to explore main computer science concepts. A teacher must seat students so that friends and students from the same city are never sitting next to each other. This is  a problem that is easy to verify but hard to solve.
+The task is broken into three parts: 
+- Understanding why this is a P vs NP type problem,
+- Exploring a brute force approach and why it breaks down with larger numbers of students, and
+- Finally applying a heuristic (smart) approach that trades perfection for speed and practicality.
+
+KEY TECHNOLOGIES: P VS NP , Brute Force, Heuristics, Factorial Complexity, Constraint Satisfaction, Algorithm Design
+
+---
+
+### Task 3: ClubBase Database Normalization and SQL operations
+
+This task takes a poorly structured college club membership table and transforms it into a clean, normalized database. Starting from a single flat table full of redundant and duplicate data, the task walks through the full normalization process and demonstrates proper database design in practice.
+The task covers:
+- Identifying data problems and anomalies(delete , update and insertion), 
+- Normalizing the data through 1NF, 2NF, and 3NF, 
+- Designing an ER diagram, writing basic SQL operations, and 
+- using JOIN queries to retrieve meaningful data across multiple tables.
+
+KEY CONCEPTS: Database Normalization, 1NF, 2NF , 3NF ER DIAGRAM, Primary and foreign keys, join operations, Data redudancy, Anomalies
