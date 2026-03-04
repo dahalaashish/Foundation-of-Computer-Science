@@ -130,9 +130,29 @@ For your respective OS , after docker is installed , check this if it is running
 ```
 docker --version
 ```
+--- 
 
+Now after this , let us go to the simulation
 
+### 1. Running the HTTP encoding demmo
 
+Step 1: Start the Docker
 
+Step 2: Pull this image
 
+```
+docker pull albertd96/real-email-demo:v1
+```
 
+Step 3: Now run the docker image
+```
+docker run -p 5000:5000 albertd96/real-email-demo:v1
+```
+If the port 5000 is taken , you can use 8080 , 5001
+
+Step 4: Now open your browser and paste this
+
+```
+https://localhost:5000
+```
+> Note : The application is containerized using Docker and published on Docker hub. Allowing reproducible deployment and testing. This ensures that the demonstration can be easily verified by pulling prebuilt images without manual configuration.
