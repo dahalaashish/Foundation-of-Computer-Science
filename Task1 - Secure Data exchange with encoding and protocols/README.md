@@ -156,3 +156,5 @@ Step 4: Now open your browser and paste this
 http://localhost:5000
 ```
 > Note : The application is containerized using Docker and published on Docker hub. Allowing reproducible deployment and testing. This ensures that the demonstration can be easily verified by pulling prebuilt images without manual configuration.
+
+### 2. Man in The Middle Attack Demonstration
