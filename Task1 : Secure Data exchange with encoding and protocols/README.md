@@ -153,6 +153,6 @@ If the port 5000 is taken , you can use 8080 , 5001
 Step 4: Now open your browser and paste this
 
 ```
-https://localhost:5000
+http://localhost:5000
 ```
 > Note : The application is containerized using Docker and published on Docker hub. Allowing reproducible deployment and testing. This ensures that the demonstration can be easily verified by pulling prebuilt images without manual configuration.
