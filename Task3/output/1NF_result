@@ -1,4 +1,4 @@
-# 1NF RESULT
+1NF RESULT
  SELECT * FROM StudentClub_1NF;
 +-----------+-------------+------------------+-------------+----------+------------+------------+
 | StudentID | StudentName | Email            | ClubName    | ClubRoom | ClubMentor | JoinDate   |
