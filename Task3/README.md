@@ -45,16 +45,20 @@ The initial dataset contained:
 - Each column contains atomic (single) values.
 - No repeating groups or multiple values in one cell.
 - Each record is unique.
-
+[OUTPUT FOR 1NF](https://github.com/dahalaashish/Foundation-of-Computer-Science/blob/main/Task3/output/1NF_result)
+  
 **Second Normal Form(2NF)**
 - Must be in 1NF.
 - Removed partial dependencies. 
 - Ensured non-key attributes depend fully on primary key.
+[OUTPUT FOR 2NF](https://github.com/dahalaashish/Foundation-of-Computer-Science/blob/main/Task3/output/2NF_result)
 
 **Third Normal Form(3NF)**
 - Must be in 2NF
 - Removed transitive dependencies  
 - Created separate entities for independent data
+[OUTPUT FOR 2NF](https://github.com/dahalaashish/Foundation-of-Computer-Science/blob/main/Task3/output/3NF_result)
+
 ---
 ### ER Diagram
 The final database structure consists of the following entities:
